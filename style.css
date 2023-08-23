@@ -9,3 +9,13 @@
     padding:0.5rem;
     border: 1px solid rgb(225,240,240)
 }
+
+Body{ border:none;}
+html{ border: none;}
+
+
+/*--- image styles---*/
+.bg-image{
+    background-image: url('/images/bmw-1.jpg');
+    background-size: cover;
+}
