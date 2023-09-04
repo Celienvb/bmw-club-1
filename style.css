@@ -52,11 +52,22 @@ p{
     margin-bottom: 1rem;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+.tall-50 {min-height: 50vh;}
+.tall-60 {min-height: 60vh;}
+.tall-70 {min-height: 70vh;}
 .tall-80 {min-height: 80vh;}
 .tall-90 {min-height: 90vh;}
 .tall-100 {min-height: 100vh;}
 
 .featured-text {color:#008ac9;}
+.orange-text {color:#FF6B35}
+.small-text {font-size: 1.5rem;}
+.big-text {font-size:4.5rem; line-height: 1;}
 
 .font-weight-light { font-weight:200;}
 .font-weight-normal { font-weight:normal;} 
@@ -77,3 +88,20 @@ header h3 {
 }
 
 header h1 {color:#FF6B35;}
+
+
+/*----------------background images -------*/
+.bg-rijbmw { background-image: url('/images/bmw-2.jpg');}
+.bg-rood { background-image: url('/images/bmw-6.jpg');}
+.bg-groen { 
+    background-image: url('/images/bmw-5.jpg');
+    background-position: 50% 42%;
+}
+
+/*---------- Icons style ---------------------*/
+.fa-solid {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
