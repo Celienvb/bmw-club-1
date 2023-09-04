@@ -5,13 +5,15 @@
 }
 
 /*---------- temporary styles for structural html -----------*/
-* {
-    padding:0.5rem;
+section {
     border: 1px solid rgb(225,240,240)
 }
 
-Body{ border: none;}
-html{ border: none;}
+Body{ 
+    font-family:'Catamaran', sans-serif;
+    color:#192b37;
+}
+
 
 
 /*--------------------- image styles----------------*/
@@ -29,3 +31,49 @@ html{ border: none;}
     background-color:#192b37;
     color: white;
 }
+
+.text-left {text-align: left;}
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+
+
+
+/* --- Typghrqphy styles -------------------------*/
+
+h2 {
+    font-size:2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;;
+}
+
+p{  
+    font-weight:200;
+    line-height:1.5;
+    margin-bottom: 1rem;
+}
+
+.tall-80 {min-height: 80vh;}
+.tall-90 {min-height: 90vh;}
+.tall-100 {min-height: 100vh;}
+
+.featured-text {color:rgb(75, 138, 240)}
+
+.font-weight-light { font-weight:200;}
+.font-weight-normal { font-weight:normal;} 
+.font-weight-extra-bold { font-weight:800;}
+ 
+
+/* -----------header styles ----------------------*/
+header {
+    background-image: url('/images/bmw-5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 5.5rem;
+    line-height:1;
+    color: whitesmoke;
+}
+
+header h1 {color:rgb(215, 33, 33)}
