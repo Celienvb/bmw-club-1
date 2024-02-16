@@ -5,53 +5,54 @@
 }
 
 
-
-/*--------------------- image styles----------------*/
-.bg-image{
-    background-image: url('/images/YMU-3.jpg');
-    background-size: cover;
-    min-height: 10rem;
-}
-
 /* -------- universal styles and utility classes -----*/
 
 body{ 
-    font-family:'Catamaran', sans-serif;
-    color:#192b37;
+    font-family:"Didact Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#006293;
 }
 
 .padded    {padding:5%;}
 .padded-sm {padding:1rem;}
+.padded-mid{ padding:7%;}
 .padded-lg {padding:10%;}
 
 .bg-dark { 
     background-color:#15618F;
     color: white;
 }
-
 .bg-pink{
     background-color: #FFC7C1;
     color: #002F47;
 }
+
 .text-left {text-align: left;}
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 
 
+/* ---------------- Typography styles -------------------------*/
 
-/* --- Typghrqphy styles -------------------------*/
+h1{
+    font-size: 4rem;
+}
 
 h2 {
-    font-size:2.5rem;
+    font-size:1.5rem;
     line-height: 1.1;
     margin-bottom: 1rem;;
 }
 
-h3{ line-height:1;}
+h3 {
+    font-size: 2rem;
+    line-height:1;}
 
 p{  
-    font-weight:200;
+    font-weight:400;
     line-height:1.5;
+    font-size:1rem;
     margin-bottom: 1rem;
 }
 
@@ -65,10 +66,9 @@ a{
     text-decoration:none;
 }
 
-a:hover{
-    color:#FFC7C1;
-}
+
 .tall-30 {min-height: 30vh;}
+.tall-40 {min-height: 40vh;}
 .tall-50 {min-height: 50vh;}
 .tall-60 {min-height: 60vh;}
 .tall-70 {min-height: 70vh;}
@@ -76,7 +76,7 @@ a:hover{
 .tall-90 {min-height: 90vh;}
 .tall-100 {min-height: 100vh;}
 
-.featured-text {color:#006293;}
+.featured-text {color:#FF8F7F;}
 .pink-text {color:#FFC7C1}
 .small-text {font-size: 1.5rem;}
 .medium-text{font-size: 2rem;
@@ -115,6 +115,11 @@ footer nav a {
     margin-right: 3rem;
 }
 
+header nav a {
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
 footer p {
     margin-bottom: 0.2rem;
 }
@@ -123,21 +128,31 @@ footer p {
     display:inline-block;
     padding: 0.5rem;
   }
-  
+
+/*--------------------- image styles----------------*/
+.bg-image{
+    background-image: url('/images/YMU-3.jpg');
+    background-size: cover;
+
+}
 
 /*----------------background images -------*/
 .bg-logo { background-image: url('/images/YMU_LOGO_2022_borstel_up\ kopie.png');
     background-size: cover;
     background-position: center;}
-.bg-rood { background-image: url('/images/julian-hochgesang-PKW0KMId1lo-unsplash\ \(1\).jpg');
+.bg-banner { background-image: url('/images/banner50.jpg');
 background-position: 20% 60%}
-.bg-groen { 
-    background-image: url('/images/bmw-8.jpg');
-    background-position: 20% 80%;
+.bg-groep{ 
+    background-image: url('/images/YMU-10.jpg');
+    background-position: 50% 35%;
+}
+.bg-blad{
+    background-image: url("/images/YMU-11.jpg");
+    background-position: 30%;
 }
 
 /*---------- Icons style ---------------------*/
-.fa-solid {
+.fa-regular {
     display: block;
     text-align: center;
     margin-bottom: 2rem;
@@ -146,7 +161,39 @@ background-position: 20% 60%}
 
 /*-------- Buttons ------*/
               
-.emphasis-button {
-    border: 2px solid;
-    margin-left: 0.5rem;
-  }
+.button-blue {
+    color: #006293;
+    text-decoration: none;        
+    letter-spacing: 1px;       
+    border: 2px solid #006293;   
+    border-radius: 10px; 
+    padding: 0.5rem 2rem;    
+    display: inline-block;   
+    transition: 1s all; 
+    margin-top: 1rem; 
+    
+
+    }
+    
+
+.button {
+        margin-left: 0.5rem;
+        color: #006293;
+        text-decoration: none;        
+        letter-spacing: 1px;       
+        border: 2px solid #FFC7C1;   
+        border-radius: 10px; 
+        padding: 0.5rem 2rem;    
+        display: inline-block;    
+        transition: 1s all; 
+        }
+        
+a:hover {
+        color: #FFC7C1;  
+        background-color: #006293;  
+    }
+
+header a:hover{
+    color:#FFC7C1;
+    background-color: white;
+}
